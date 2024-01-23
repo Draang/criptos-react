@@ -1,4 +1,4 @@
-import { useState } from "react";
+
 import styled from "@emotion/styled";
 import Formulario from "./Components/Formulario";
 import ImagenCripto from "./img/imagen-criptos.png";
@@ -28,7 +28,7 @@ const Contenedor = styled.div`
   @media (min-width: 992px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 2rem;
+column-gap: 2rem;
   }
 `;
 const Imagen = styled.img`
