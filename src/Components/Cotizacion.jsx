@@ -5,15 +5,22 @@ const Resultado = styled.div`
   color: #fff;
   font-family: "Lato", sans-serif;
   display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 30px;
+  img {
+    display: block;
+    width: 120px;
+  }
 `;
 const Texto = styled.p`
-  font-size: 22px;
+  font-size: 20px;
   span {
     font-weight: 700;
   }
 `;
 const Precio = styled.p`
-  font-size: 30px;
+  font-size: 25px;
   span {
     font-weight: 700;
   }
